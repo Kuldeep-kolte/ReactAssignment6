@@ -1,0 +1,95 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgb(65, 224, 224) 1%, rgb(251, 211, 217) 50% , rgb(130, 235, 235));
+}
+
+#Navbar{
+  background-color: rgb(98, 146, 251);
+  padding: 5px;
+  margin-bottom: 3rem;
+  font-family: 'Courgette', cursive;
+  display: flex;
+  justify-content: space-around;
+}
+
+.title{
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  
+}
+
+.text{
+  margin-left: 5rem;
+  font-size: 1.3rem;
+}
+
+.header{
+  margin-bottom: 1.5rem;
+  display: grid;
+  grid-template-columns: 20vw 20vw;
+  grid-gap: 15vh;
+  justify-content: space-between;
+}
+
+h2{
+  font-family: 'Secular One', sans-serif;
+}
+
+.butn{
+  font-size: 1.3rem;
+  padding: 0 2rem;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+td{
+  padding: 15px !important;
+}
+.text{
+  text-align: center;
+  font-size: xx-large;
+  font-style: italic;
+}
+
+.algn{
+  text-align: right;
+}
+
+.box{
+  width: 65vw;
+  margin: 20vh 6vw 10vh;
+}
+
+.editFields{
+  width: 25vw;
+  height: 6vh;
+  background-color: transparent;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  padding: 0 5px;
+}
+.editFields:hover{
+  border: 2px solid black;
+}
+
+
+.box2{
+  width: 85vw;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.butn2{
+  font-size: 1.3rem;
+  padding: 0.5rem 4rem;
+  border: 1px solid black;
+  border-radius: 25px;
+  margin-left: 2vw;
+}
