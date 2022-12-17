@@ -1,5 +1,12 @@
 const Student=[
     {
+        "id": 6,
+        "Name": "Kuldeep Kolte",
+        "Age": 22,
+        "Course": "MERN",
+        "Batch": "July"
+    },
+    {
         "id": 0,
         "Name": "John",
         "Age": "24",
@@ -41,6 +48,7 @@ const Student=[
         "Course": "MERN",
         "Batch": "November"
     },
+  
 ]
 
 export default Student;
